@@ -18,7 +18,6 @@ def find_the_cheese(ingredients)
   ingredients.each { |e| do
     if cheese_types.include?(e)
       cheese_found = e
-    end
   }
   cheese_found
 end
