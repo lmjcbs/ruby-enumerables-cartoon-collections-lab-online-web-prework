@@ -16,4 +16,5 @@ def find_the_cheese(ingredients)
   cheese_found = nil
   cheese_types = ["cheddar", "gouda", "camembert"]
   ingredients.each_with_index { |value, index| puts"#{ingredients[index]}" if cheese_types.includes?(value)}
+  cheese_found
 end
