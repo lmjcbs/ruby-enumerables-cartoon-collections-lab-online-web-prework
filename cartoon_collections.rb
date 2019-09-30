@@ -19,5 +19,6 @@ def find_the_cheese(ingredients)
     if cheese_types.include?(e)
       cheese_found = e
     end
+  }
   cheese_found
 end
